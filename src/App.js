@@ -3,7 +3,16 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Weather App</header>
+      <footer>
+        This project was coded by Ekateryna Myhalchenko and is{" "}
+        <a
+          href="https://github.com/katja4erry/react-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced on GitHub
+        </a>
+      </footer>
     </div>
   );
 }
